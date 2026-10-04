@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@backend/*": ["backend/*"],
+      "@shared/*": ["shared/*"]
+    },
+    "types": ["node"]
+  },
+  "include": ["electron/main", "backend", "scripts"]
+}
